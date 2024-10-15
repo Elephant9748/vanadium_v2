@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: install_git
-        id: install_git
-        run: apt install git -y
+      - name: clone_Vanadium
+        id: clone_vanadium
+        run: git clone https://github.com/GrapheneOS/Vanadium.git
 
